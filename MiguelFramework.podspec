@@ -10,6 +10,6 @@ Pod::Spec.new do |spec|
   spec.author       = { "Miguel Delgado" => "migdelgado@outlook.com" }
   spec.platform     = :ios, "12.0"
   spec.source       = { :git => "https://github.com/miguelDelgado333/MiguelFramework3.git", :tag => "1.0.2" }
-  spec.source_files = "MiguelFramework3/**/*.{h,m}"
+  spec.source_files = "Pod/Classes/**/*"
 
 end
