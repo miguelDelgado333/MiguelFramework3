@@ -1,15 +1,15 @@
 
 Pod::Spec.new do |spec|
 
-  spec.name         = "MiguelFramework3"
-  spec.version      = "1.0.1"
+  spec.name         = "MiguelFramework"
+  spec.version      = "1.0.2"
   spec.summary      = "Login"
   spec.description  = "Framework"
   spec.homepage     = "https://github.com/miguelDelgado333/MiguelFramework3"
   spec.license      = "MIT"
   spec.author       = { "Miguel Delgado" => "migdelgado@outlook.com" }
   spec.platform     = :ios, "12.0"
-  spec.source       = { :git => "https://github.com/miguelDelgado333/MiguelFramework3.git", :tag => "1.0.1" }
-  spec.source_files =  "MiguelFramework3/**/*"
+  spec.source       = { :git => "https://github.com/miguelDelgado333/MiguelFramework3.git", :tag => "1.0.2" }
+  spec.source_files = "MiguelFramework3/**/*.{h,m}"
 
 end
